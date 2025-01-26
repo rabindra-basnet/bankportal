@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RL-{####}",
+ "creation": "2024-12-23 11:23:32.600650",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "is_existing_customer",
+  "account_number",
+  "is_credit_card",
+  "applicant_details_section",
+  "applicant_name",
+  "issuing_district",
+  "pan_number",
+  "grandfathers_name",
+  "mothers_name",
+  "data_ybyp",
+  "column_break_djxx",
+  "citizenship_number",
+  "issued_date",
+  "fathers_name",
+  "father_in_laws_name",
+  "spouse_name",
+  "section_break_trus",
+  "product_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_table",
+   "fieldtype": "Table",
+   "label": "Product Table",
+   "options": "Retail Loan Product Table"
+  },
+  {
+   "fieldname": "is_existing_customer",
+   "fieldtype": "Data",
+   "label": "Are you an existing CAS Bank Customer ?",
+   "length": 50
+  },
+  {
+   "fieldname": "section_break_trus",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Small Text",
+   "label": "Account Number",
+   "max_height": "30px"
+  },
+  {
+   "fieldname": "applicant_details_section",
+   "fieldtype": "Section Break",
+   "label": "Applicant Details"
+  },
+  {
+   "fieldname": "is_credit_card",
+   "fieldtype": "Data",
+   "label": "Do you have CAS Credit Card ?"
+  },
+  {
+   "depends_on": "eval:doc.applicant_name",
+   "fieldname": "citizenship_number",
+   "fieldtype": "Data",
+   "label": "Citizenship Number"
+  },
+  {
+   "fieldname": "applicant_name",
+   "fieldtype": "Data",
+   "label": "Applicant Name"
+  },
+  {
+   "fieldname": "issuing_district",
+   "fieldtype": "Data",
+   "label": "Issuing District"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "label": "PAN Number"
+  },
+  {
+   "fieldname": "grandfathers_name",
+   "fieldtype": "Data",
+   "label": "GrandFather's Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "column_break_djxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "issued_date",
+   "fieldtype": "Date",
+   "label": "Issued Date"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "fieldname": "father_in_laws_name",
+   "fieldtype": "Data",
+   "label": "Father in Law's Name"
+  },
+  {
+   "fieldname": "spouse_name",
+   "fieldtype": "Data",
+   "label": "Spouse Name"
+  },
+  {
+   "fieldname": "data_ybyp",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-23 16:35:27.270327",
+ "modified_by": "Administrator",
+ "module": "Credit Card",
+ "name": "Retail Loan",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

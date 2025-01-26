@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-21 16:07:30.089738",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_awlb",
+  "section_break_bhga",
+  "jv_name",
+  "address_line_2",
+  "country",
+  "email",
+  "column_break_yhxa",
+  "address__line_1",
+  "address_line_3",
+  "contact_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_awlb",
+   "fieldtype": "HTML",
+   "options": "<h2>Joint Ventures Details</h2>"
+  },
+  {
+   "fieldname": "section_break_bhga",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "jv_name",
+   "fieldtype": "Data",
+   "label": "JV Name"
+  },
+  {
+   "fieldname": "address__line_1",
+   "fieldtype": "Data",
+   "label": "Address  Line 1"
+  },
+  {
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "column_break_yhxa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line_3",
+   "fieldtype": "Data",
+   "label": "Address Line 3"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-23 16:35:39.160255",
+ "modified_by": "Administrator",
+ "module": "Credit Card",
+ "name": "JV Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,1810 @@
+{
+ "actions": [],
+ "autoname": "format:BG-{###}",
+ "creation": "2024-10-25 14:12:30.299927",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lead_information_tab",
+  "section_break_jzlc",
+  "amended_from",
+  "section_break_tdyp",
+  "html_spcy",
+  "section_break_ayet",
+  "bg_type",
+  "form_of_undertaking",
+  "column_break_kdgc",
+  "customer_id",
+  "task",
+  "column_break_tjor",
+  "transaction_referrence_no",
+  "clasification_of_bg",
+  "column_break_kouy",
+  "undertaking_number",
+  "html_enrs",
+  "button_cbbx",
+  "tab_2_tab",
+  "html_mtkw",
+  "section_break_zjcm",
+  "cif_id",
+  "applicant_name",
+  "pan_no",
+  "column_break_uobn",
+  "html_tvpt",
+  "fetch_detals",
+  "html_gngx",
+  "applicant_type",
+  "exim_code_no",
+  "column_break_gsow",
+  "html_nwec",
+  "customer_email_address",
+  "section_break_bwfr",
+  "jv_detail",
+  "section_break_xbvr",
+  "segment",
+  "oda_account_balance",
+  "chargesmargin_debit_account_number",
+  "column_break_esoa",
+  "data_bfxf",
+  "caa_account_number",
+  "tt_debit_account",
+  "column_break_xirl",
+  "oda_account_number",
+  "caa_account_balance",
+  "section_break_osba",
+  "address_line_1",
+  "address_line_3",
+  "country",
+  "column_break_swqc",
+  "address_line_2",
+  "contact_number",
+  "email",
+  "beneficiary_details_tab",
+  "html_fhwt",
+  "section_break_rdjc",
+  "no_of_beneficiary",
+  "column_break_ojwl",
+  "beneficiary_type",
+  "section_break_ufyl",
+  "table_ezal",
+  "guarantor_details_for_international_bg_only_section",
+  "bank_name",
+  "guaddressline",
+  "guaddressline3",
+  "data_yfkh",
+  "ctsbgallbenename",
+  "ctsbgalladdress",
+  "gacountry",
+  "column_break_gpfp",
+  "bank_branch",
+  "guaddressline2",
+  "gucountry",
+  "html_lnla",
+  "get_all_beneficiary_name",
+  "html_xedz",
+  "get_all_address",
+  "html_moma",
+  "get_all_address_line_one",
+  "bg_details_tab",
+  "html_ytrp",
+  "section_break_eiqo",
+  "type_of_bg",
+  "applicable_rules",
+  "under_taking_amount_figures",
+  "undertaking_amount_lcy_value",
+  "date_of_issue",
+  "expiry_date",
+  "claim_expiry_date",
+  "expiry_tenure_type",
+  "expiry_conditionevent",
+  "column_break_tbyr",
+  "bg_category",
+  "under_taking_amount_currency_code",
+  "undertaking_amount_fx_rate",
+  "approval_obtained_to_issue_fcy_bg",
+  "effective_date",
+  "validity",
+  "claim_period",
+  "bg_expiry_place",
+  "additional_amount_information",
+  "bg_available_value_section",
+  "currency_code",
+  "fx_rate_code",
+  "invoked_liability_exists",
+  "aggregate_limit",
+  "unverified_bg_amount",
+  "format_vetted__approved",
+  "approval_obtained",
+  "column_break_mhqr",
+  "amount",
+  "lcy_value",
+  "party_limit_id",
+  "available_amount",
+  "select_ifhr",
+  "force_majuere_clause",
+  "sustantiate_claims",
+  "section_break_biam",
+  "receivers_name",
+  "receivers_id_number",
+  "column_break_xygl",
+  "receivers_contact_number",
+  "section_break_dgsp",
+  "purpose_of__guarantee",
+  "valid_until",
+  "column_break_qalx",
+  "contract_date",
+  "contract_number",
+  "description_of_goods_and_services_section",
+  "table_egco",
+  "isuanceof_bg_agains_counter",
+  "data_zsfe",
+  "html_jdyg",
+  "bg_issuance_charges",
+  "swift_code",
+  "bg_expiry_date",
+  "cg_clause_vetted__approved",
+  "cg_expiry_date",
+  "governing_law__place_of_jurisdiction",
+  "remarks_for_cg",
+  "column_break_kixs",
+  "issuanceagainstdateofissue",
+  "html_osyt",
+  "issuingbankname",
+  "bg_amount",
+  "issuingbankclaimperiond",
+  "bg_format_vetted__approved",
+  "cg_issuance_compliance_checked",
+  "issuingbankexpiryplace",
+  "issuance_of_counter_guarantee_section",
+  "purpose_of_messgae",
+  "html_etto",
+  "advisingname",
+  "advising_bank_reference_number",
+  "column_break_zpke",
+  "html_zgxp",
+  "advisingswiftcode",
+  "advise_through_bank_section",
+  "advisethroughbankname",
+  "column_break_drjb",
+  "adviseswiftcode",
+  "available_with_section",
+  "availablewithswiftcode",
+  "available_with",
+  "column_break_ufge",
+  "availablewithbankname",
+  "bg_issuing_bank_section",
+  "bgissuingbank",
+  "column_break_ptgo",
+  "bg_issuance_charges_charges_outside_country",
+  "confirming_bank_section",
+  "confirmation_instructions",
+  "confirmingbankswiftcode",
+  "column_break_zamu",
+  "confirmingbankname",
+  "requested_confirmation_party_section",
+  "requestedconfirmationbankname",
+  "column_break_pcbl",
+  "requestconfirmswiftcode",
+  "eimbursing_bank_section",
+  "reimbursingaccountdetail",
+  "direct_reimbursements",
+  "column_break_khdi",
+  "reimbursingbankname",
+  "section_break_nytr",
+  "draweebankname",
+  "column_break_vukc",
+  "draweeswiftcode",
+  "obligor__instructing_party_section",
+  "obligorbankname",
+  "settlement_instructions_section",
+  "settlementbankname",
+  "settlementaccountdetails",
+  "sender_to_receiver_information72",
+  "column_break_zsxq",
+  "settlementswiftcode",
+  "settlement_sender_to_receiver_information",
+  "sender_to_receiver_information",
+  "section_break_uroq",
+  "issuer",
+  "document_and_presentation_instruction",
+  "automatic_extension_period",
+  "automatic_extension_notification_period",
+  "demand_indicator",
+  "transfer_conditions",
+  "delivery_of_original_undertaking",
+  "requested_local_undertaking_terms_and_conditions",
+  "standard_wording_requested_language",
+  "column_break_cpyt",
+  "governing_law_andor_place_of_jurisdiction",
+  "undertaking_terms_and_conditions",
+  "automatic_extensionnon_extension_notification",
+  "automatic_extension_final_expiry_date",
+  "transfer_indicator",
+  "underlying_transaction_details",
+  "delivery_to__collection_by",
+  "generate_swift_message__gtee_text",
+  "type_of_undertaking",
+  "shipping_guarantee_section",
+  "data_dviz",
+  "fx_rate",
+  "bill_of_lading_no",
+  "carrier_id",
+  "column_break_jiyd",
+  "lc_amount_fcy",
+  "lcy_amount",
+  "carrier_name_and_address",
+  "deferred_payment_guarantee_section",
+  "installment_payment_details",
+  "column_break_obaz",
+  "date_of_installment_due",
+  "facility_tab",
+  "data_vcim",
+  "limit_node_to_be_used",
+  "column_break_snha",
+  "limit_suffix",
+  "html_webb",
+  "fetch_limit",
+  "section_break_hjru",
+  "table_gbax",
+  "comissions_tab",
+  "commissions_section",
+  "charge_code",
+  "data_ycdz",
+  "min_charge_amount",
+  "date_xzfy",
+  "party_to_charge",
+  "charge_amount",
+  "amortize",
+  "column_break_tzug",
+  "type_flat",
+  "charge_in_home_currency",
+  "from_date",
+  "days__month__quarter",
+  "account_details",
+  "amortization_of_charges",
+  "minimum_amount_for_amortization",
+  "margin_details_section",
+  "margin_details",
+  "margin_currency",
+  "margin_refund",
+  "debit_amount",
+  "spot_contract_signed",
+  "allow_margin_modification",
+  "remarks_if_waiver_allowed",
+  "column_break_fjmm",
+  "select_tyzv",
+  "data_ebod",
+  "select_ljee",
+  "spot_rate_incase_of_currency_other_than_home_currency",
+  "allow_waive",
+  "collection_mode",
+  "statutory_margin_section",
+  "statutory_details",
+  "margin_amount",
+  "statutorymarginrefu",
+  "column_break_bhmu",
+  "situatorytype",
+  "margin_debitcredit_account",
+  "tab_7_tab",
+  "currency_type",
+  "requested_value_in_words",
+  "exchange_rate",
+  "column_break_ngil",
+  "value_of_documentrequest_amountproposed",
+  "rate_code",
+  "documentlcyamount",
+  "tab_8_tab",
+  "deferral_section",
+  "table_xidv",
+  "section_break_shwy",
+  "remarls",
+  "column_break_ntrt",
+  "deferral_received_by_rm"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bank Guarantee",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_jzlc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lead_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Lead Information"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Applicant Details"
+  },
+  {
+   "fieldname": "section_break_ayet",
+   "fieldtype": "Section Break",
+   "label": "BG Details"
+  },
+  {
+   "fieldname": "html_spcy",
+   "fieldtype": "HTML",
+   "options": "<h2>Lead Information</h2>"
+  },
+  {
+   "fieldname": "html_mtkw",
+   "fieldtype": "HTML",
+   "options": "<h2>Applicant Details</h2>"
+  },
+  {
+   "fieldname": "section_break_zjcm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_tdyp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "label": "Customer ID"
+  },
+  {
+   "fieldname": "transaction_referrence_no",
+   "fieldtype": "Data",
+   "label": "Transaction referrence No"
+  },
+  {
+   "fieldname": "undertaking_number",
+   "fieldtype": "Data",
+   "label": "Undertaking Number"
+  },
+  {
+   "fieldname": "form_of_undertaking",
+   "fieldtype": "Select",
+   "label": "Form of Undertaking",
+   "options": "\nDGAR (Demand Guarantee)\nSTBY (Standby LC)"
+  },
+  {
+   "fieldname": "task",
+   "fieldtype": "Select",
+   "label": "Task",
+   "options": "\nBG Copy\nBG Issue\nAmend\nModify\nVerify\nCancel\nMark as Invoke\nInvoke"
+  },
+  {
+   "fieldname": "clasification_of_bg",
+   "fieldtype": "Select",
+   "label": "Clasification of BG",
+   "options": "\nLocal\nCounter Guarantee (International Gtee)\nBG against Counter G'tee\nLine of Credit/Commitment Liability\nOthers"
+  },
+  {
+   "fieldname": "column_break_kdgc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tjor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kouy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "button_cbbx",
+   "fieldtype": "Button",
+   "label": "Get Undertaking Number"
+  },
+  {
+   "fieldname": "html_enrs",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:20px;\"></div>"
+  },
+  {
+   "fieldname": "cif_id",
+   "fieldtype": "Data",
+   "label": "CIF ID"
+  },
+  {
+   "fieldname": "column_break_uobn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fetch_detals",
+   "fieldtype": "Button",
+   "label": "Fetch Details"
+  },
+  {
+   "fieldname": "html_tvpt",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:25px;\"></div>"
+  },
+  {
+   "fieldname": "applicant_name",
+   "fieldtype": "Data",
+   "label": "Applicant Name"
+  },
+  {
+   "fieldname": "applicant_type",
+   "fieldtype": "Select",
+   "label": "Applicant Type",
+   "options": "\nSingle\nJV"
+  },
+  {
+   "fieldname": "pan_no",
+   "fieldtype": "Data",
+   "label": "PAN No"
+  },
+  {
+   "fieldname": "customer_email_address",
+   "fieldtype": "Data",
+   "label": "Customer Email Address"
+  },
+  {
+   "fieldname": "exim_code_no",
+   "fieldtype": "Data",
+   "label": "Exim Code No"
+  },
+  {
+   "fieldname": "column_break_gsow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_nwec",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:70px;\"></div>"
+  },
+  {
+   "fieldname": "html_gngx",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:7px;\"></div>"
+  },
+  {
+   "depends_on": "eval:doc.applicant_type == \"JV\"",
+   "fieldname": "section_break_bwfr",
+   "fieldtype": "Section Break",
+   "label": "JV Details"
+  },
+  {
+   "fieldname": "jv_detail",
+   "fieldtype": "Table",
+   "label": "JV Detail",
+   "options": "JV Details"
+  },
+  {
+   "fieldname": "section_break_xbvr",
+   "fieldtype": "Section Break",
+   "label": "Segment"
+  },
+  {
+   "fieldname": "segment",
+   "fieldtype": "Select",
+   "label": "Segment",
+   "options": "Select"
+  },
+  {
+   "fieldname": "data_bfxf",
+   "fieldtype": "Data",
+   "label": "SOL ID"
+  },
+  {
+   "fieldname": "oda_account_number",
+   "fieldtype": "Data",
+   "label": "ODA Account Number"
+  },
+  {
+   "fieldname": "oda_account_balance",
+   "fieldtype": "Data",
+   "label": "ODA Account Balance"
+  },
+  {
+   "fieldname": "caa_account_number",
+   "fieldtype": "Data",
+   "label": "CAA Account Number"
+  },
+  {
+   "fieldname": "caa_account_balance",
+   "fieldtype": "Data",
+   "label": "CAA Account Balance"
+  },
+  {
+   "fieldname": "chargesmargin_debit_account_number",
+   "fieldtype": "Data",
+   "label": "Charges/Margin Debit Account Number"
+  },
+  {
+   "fieldname": "tt_debit_account",
+   "fieldtype": "Data",
+   "label": "TT Debit Account"
+  },
+  {
+   "fieldname": "column_break_esoa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xirl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_osba",
+   "fieldtype": "Section Break",
+   "label": "Applicant Address"
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
+  },
+  {
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "address_line_3",
+   "fieldtype": "Data",
+   "label": "Address Line 3"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Select",
+   "label": "Country"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_swqc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beneficiary_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Beneficiary Details",
+   "options": "Select"
+  },
+  {
+   "fieldname": "no_of_beneficiary",
+   "fieldtype": "Int",
+   "label": "No. of Beneficiary"
+  },
+  {
+   "fieldname": "beneficiary_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Beneficiary Type",
+   "options": "\nGovernment\nOthers"
+  },
+  {
+   "fieldname": "column_break_ojwl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ufyl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_ezal",
+   "fieldtype": "Table",
+   "label": "Beneficiary Details",
+   "options": "BG Beneficiary Details"
+  },
+  {
+   "fieldname": "guarantor_details_for_international_bg_only_section",
+   "fieldtype": "Section Break",
+   "label": "Guarantor Details (For International BG Only)"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "bank_branch",
+   "fieldtype": "Data",
+   "label": "Bank Branch"
+  },
+  {
+   "fieldname": "guaddressline",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
+  },
+  {
+   "fieldname": "column_break_gpfp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "guaddressline2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "guaddressline3",
+   "fieldtype": "Data",
+   "label": "Address Line 3"
+  },
+  {
+   "fieldname": "gucountry",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "data_yfkh",
+   "fieldtype": "Data",
+   "label": "Swift Code"
+  },
+  {
+   "fieldname": "ctsbgallbenename",
+   "fieldtype": "Small Text",
+   "label": "ctsBGAllBeneName"
+  },
+  {
+   "fieldname": "html_lnla",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:160px;\"></div>"
+  },
+  {
+   "fieldname": "get_all_beneficiary_name",
+   "fieldtype": "Button",
+   "label": "Get all Beneficiary Name"
+  },
+  {
+   "fieldname": "ctsbgalladdress",
+   "fieldtype": "Small Text",
+   "label": "ctsBGAllAddress"
+  },
+  {
+   "fieldname": "html_xedz",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:160px;\"></div>"
+  },
+  {
+   "fieldname": "get_all_address",
+   "fieldtype": "Button",
+   "label": "Get all address"
+  },
+  {
+   "fieldname": "gacountry",
+   "fieldtype": "Small Text",
+   "label": "Country"
+  },
+  {
+   "fieldname": "html_moma",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:160px;\"></div>"
+  },
+  {
+   "fieldname": "get_all_address_line_one",
+   "fieldtype": "Button",
+   "label": "Get all address line one"
+  },
+  {
+   "fieldname": "bg_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "BG Details"
+  },
+  {
+   "fieldname": "html_fhwt",
+   "fieldtype": "HTML",
+   "options": "<h2>Beneficiary Details</h2>"
+  },
+  {
+   "fieldname": "section_break_rdjc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_ytrp",
+   "fieldtype": "HTML",
+   "options": "<h2>BG Details</h2>"
+  },
+  {
+   "fieldname": "section_break_eiqo",
+   "fieldtype": "Section Break",
+   "label": "BG Details"
+  },
+  {
+   "fieldname": "type_of_bg",
+   "fieldtype": "Select",
+   "label": "Type of BG",
+   "options": "\nTender G'tee(Bid Bond)\nPerformance G'tee\nFinancial G'tee\nAdvance Payment G'tee\nRetention & Warranty Bond\nDeferred Payment G'tee\nPayment G'tee\nShipping G'tee"
+  },
+  {
+   "fieldname": "column_break_tbyr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bg_category",
+   "fieldtype": "Select",
+   "label": "BG Category",
+   "options": "\nSuppliers Credit\nCustoms\nCourt\nVehicle Permit\nGovernment\nIndustry\nTrading"
+  },
+  {
+   "fieldname": "applicable_rules",
+   "fieldtype": "Select",
+   "label": "Applicable Rules",
+   "options": "None\nURDG\nUCPR\nISPR\nOther"
+  },
+  {
+   "fieldname": "under_taking_amount_currency_code",
+   "fieldtype": "Select",
+   "label": "Under Taking Amount Currency Code"
+  },
+  {
+   "fieldname": "under_taking_amount_figures",
+   "fieldtype": "Data",
+   "label": "Under Taking Amount Figures"
+  },
+  {
+   "fieldname": "undertaking_amount_fx_rate",
+   "fieldtype": "Data",
+   "label": "Undertaking Amount FX Rate"
+  },
+  {
+   "fieldname": "undertaking_amount_lcy_value",
+   "fieldtype": "Data",
+   "label": "Undertaking Amount LCY Value"
+  },
+  {
+   "fieldname": "approval_obtained_to_issue_fcy_bg",
+   "fieldtype": "Data",
+   "label": "Approval obtained to issue FCY BG"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "label": "Effective Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Data",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "validity",
+   "fieldtype": "Data",
+   "label": "Validity"
+  },
+  {
+   "fieldname": "claim_expiry_date",
+   "fieldtype": "Date",
+   "label": "Claim Expiry date"
+  },
+  {
+   "fieldname": "claim_period",
+   "fieldtype": "Data",
+   "label": "Claim Period"
+  },
+  {
+   "fieldname": "expiry_tenure_type",
+   "fieldtype": "Select",
+   "label": "Expiry (Tenure) Type",
+   "options": "\nOPEN (Open ended)\nFIXD (Fixed Term)\nCOND"
+  },
+  {
+   "fieldname": "bg_expiry_place",
+   "fieldtype": "Data",
+   "label": "BG Expiry Place"
+  },
+  {
+   "fieldname": "expiry_conditionevent",
+   "fieldtype": "Data",
+   "label": "Expiry Condition/Event"
+  },
+  {
+   "fieldname": "additional_amount_information",
+   "fieldtype": "Data",
+   "label": "Additional Amount Information"
+  },
+  {
+   "fieldname": "bg_available_value_section",
+   "fieldtype": "Section Break",
+   "label": "BG Available Value"
+  },
+  {
+   "fieldname": "currency_code",
+   "fieldtype": "Select",
+   "label": "Currency Code"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "fx_rate_code",
+   "fieldtype": "Data",
+   "label": "FX Rate Code"
+  },
+  {
+   "fieldname": "column_break_mhqr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lcy_value",
+   "fieldtype": "Data",
+   "label": "LCY Value"
+  },
+  {
+   "fieldname": "invoked_liability_exists",
+   "fieldtype": "Select",
+   "label": "Invoked Liability Exists",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "party_limit_id",
+   "fieldtype": "Data",
+   "label": "Party Limit ID"
+  },
+  {
+   "fieldname": "aggregate_limit",
+   "fieldtype": "Data",
+   "label": "Aggregate Limit"
+  },
+  {
+   "fieldname": "available_amount",
+   "fieldtype": "Data",
+   "label": "Available Amount"
+  },
+  {
+   "fieldname": "format_vetted__approved",
+   "fieldtype": "Select",
+   "label": "Format vetted / Approved",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "force_majuere_clause",
+   "fieldtype": "Select",
+   "label": "Force Majuere Clause",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "unverified_bg_amount",
+   "fieldtype": "Select",
+   "label": "Unverified BG amount"
+  },
+  {
+   "fieldname": "select_ifhr",
+   "fieldtype": "Select",
+   "label": "BG Format",
+   "options": "\nBank Standard\nBeneficiary's Format\nBank Standard with changes"
+  },
+  {
+   "fieldname": "approval_obtained",
+   "fieldtype": "Select",
+   "label": "Approval Obtained",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "sustantiate_claims",
+   "fieldtype": "Data",
+   "label": "Sustantiate claims"
+  },
+  {
+   "fieldname": "section_break_biam",
+   "fieldtype": "Section Break",
+   "label": "Document To be Received By:"
+  },
+  {
+   "fieldname": "receivers_name",
+   "fieldtype": "Data",
+   "label": "Receivers Name"
+  },
+  {
+   "fieldname": "receivers_contact_number",
+   "fieldtype": "Data",
+   "label": "Receivers Contact Number"
+  },
+  {
+   "fieldname": "receivers_id_number",
+   "fieldtype": "Data",
+   "label": "Receivers ID Number"
+  },
+  {
+   "fieldname": "column_break_xygl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_dgsp",
+   "fieldtype": "Section Break",
+   "label": "Purpose of Guarantee"
+  },
+  {
+   "fieldname": "purpose_of__guarantee",
+   "fieldtype": "Data",
+   "label": "Purpose Of  Guarantee"
+  },
+  {
+   "fieldname": "contract_date",
+   "fieldtype": "Date",
+   "label": "Contract Date"
+  },
+  {
+   "fieldname": "valid_until",
+   "fieldtype": "Date",
+   "label": "valid Until"
+  },
+  {
+   "fieldname": "column_break_qalx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_number",
+   "fieldtype": "Data",
+   "label": "Contract Number"
+  },
+  {
+   "fieldname": "description_of_goods_and_services_section",
+   "fieldtype": "Section Break",
+   "label": "Description of goods and services"
+  },
+  {
+   "fieldname": "table_egco",
+   "fieldtype": "Table",
+   "options": "BG Description of Goods And Services"
+  },
+  {
+   "fieldname": "data_zsfe",
+   "fieldtype": "Data",
+   "label": "CG Reference No."
+  },
+  {
+   "fieldname": "issuanceagainstdateofissue",
+   "fieldtype": "Date",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "column_break_kixs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_jdyg",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 200px; font-weight: bold; padding-bottom: 20px;\">CG Issuance Bank</div>\n"
+  },
+  {
+   "fieldname": "bg_type",
+   "fieldtype": "Select",
+   "label": "BG Type",
+   "options": "\nInward\nOutward"
+  },
+  {
+   "fieldname": "bg_issuance_charges",
+   "fieldtype": "Select",
+   "label": "BG Issuance Charges"
+  },
+  {
+   "fieldname": "swift_code",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "bg_expiry_date",
+   "fieldtype": "Date",
+   "label": "BG Expiry Date"
+  },
+  {
+   "fieldname": "cg_clause_vetted__approved",
+   "fieldtype": "Data",
+   "label": "CG clause vetted / Approved"
+  },
+  {
+   "fieldname": "cg_expiry_date",
+   "fieldtype": "Data",
+   "label": "CG Expiry Date"
+  },
+  {
+   "fieldname": "governing_law__place_of_jurisdiction",
+   "fieldtype": "Data",
+   "label": "Governing Law / Place of Jurisdiction"
+  },
+  {
+   "fieldname": "remarks_for_cg",
+   "fieldtype": "Small Text",
+   "label": "Remarks for CG"
+  },
+  {
+   "fieldname": "html_osyt",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:40px; padding-bottom:20px;\"></div>\n"
+  },
+  {
+   "fieldname": "issuingbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "bg_amount",
+   "fieldtype": "Data",
+   "label": "BG Amount"
+  },
+  {
+   "fieldname": "issuingbankclaimperiond",
+   "fieldtype": "Data",
+   "label": "Claim Period"
+  },
+  {
+   "fieldname": "bg_format_vetted__approved",
+   "fieldtype": "Data",
+   "label": "BG Format Vetted / Approved"
+  },
+  {
+   "fieldname": "cg_issuance_compliance_checked",
+   "fieldtype": "Data",
+   "label": "CG Issuance compliance checked"
+  },
+  {
+   "fieldname": "issuingbankexpiryplace",
+   "fieldtype": "Data",
+   "label": "BG Expiry Place"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "issuance_of_counter_guarantee_section",
+   "fieldtype": "Section Break",
+   "label": "Issuance of Counter Guarantee"
+  },
+  {
+   "fieldname": "purpose_of_messgae",
+   "fieldtype": "Select",
+   "label": "Purpose of Messgae"
+  },
+  {
+   "fieldname": "html_etto",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 200px; font-weight: bold; padding-bottom: 20px;\">Advising Bank</div>\n"
+  },
+  {
+   "fieldname": "advisingname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "advising_bank_reference_number",
+   "fieldtype": "Data",
+   "label": "Advising Bank Reference Number"
+  },
+  {
+   "fieldname": "advisethroughbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "column_break_zpke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_zgxp",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:115px; padding-bottom:20px;\"></div>\n"
+  },
+  {
+   "fieldname": "advisingswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "adviseswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "available_with",
+   "fieldtype": "Data",
+   "label": "Available With"
+  },
+  {
+   "fieldname": "availablewithswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "availablewithbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "bgissuingbank",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "bg_issuance_charges_charges_outside_country",
+   "fieldtype": "Select",
+   "label": "BG Issuance Charges (charges outside country)"
+  },
+  {
+   "fieldname": "confirmation_instructions",
+   "fieldtype": "Select",
+   "label": "Confirmation Instructions"
+  },
+  {
+   "fieldname": "confirmingbankswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "confirmingbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "requestedconfirmationbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "requestconfirmswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "direct_reimbursements",
+   "fieldtype": "Select",
+   "label": "Direct Reimbursements"
+  },
+  {
+   "fieldname": "reimbursingaccountdetail",
+   "fieldtype": "Data",
+   "label": "Account Details"
+  },
+  {
+   "fieldname": "reimbursingbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "draweebankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "draweeswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "obligorbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "settlement_instructions_section",
+   "fieldtype": "Section Break",
+   "label": "Settlement Instructions"
+  },
+  {
+   "fieldname": "settlementbankname",
+   "fieldtype": "Select",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "settlementaccountdetails",
+   "fieldtype": "Select",
+   "label": "Account Details"
+  },
+  {
+   "fieldname": "sender_to_receiver_information72",
+   "fieldtype": "Small Text",
+   "label": "Sender to receiver information(72)"
+  },
+  {
+   "fieldname": "column_break_zsxq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "settlementswiftcode",
+   "fieldtype": "Select",
+   "label": "SWIFT Code"
+  },
+  {
+   "fieldname": "settlement_sender_to_receiver_information",
+   "fieldtype": "Data",
+   "label": "Sender to Receiver Information"
+  },
+  {
+   "fieldname": "sender_to_receiver_information",
+   "fieldtype": "Select",
+   "label": "Sender to receiver information"
+  },
+  {
+   "fieldname": "section_break_uroq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "issuer",
+   "fieldtype": "Data",
+   "label": "Issuer"
+  },
+  {
+   "fieldname": "document_and_presentation_instruction",
+   "fieldtype": "Data",
+   "label": "Document and Presentation instruction"
+  },
+  {
+   "fieldname": "automatic_extension_period",
+   "fieldtype": "Select",
+   "label": "Automatic Extension Period"
+  },
+  {
+   "fieldname": "automatic_extension_notification_period",
+   "fieldtype": "Data",
+   "label": "Automatic Extension Notification Period"
+  },
+  {
+   "fieldname": "demand_indicator",
+   "fieldtype": "Data",
+   "label": "Demand Indicator"
+  },
+  {
+   "fieldname": "transfer_conditions",
+   "fieldtype": "Data",
+   "label": "Transfer Conditions"
+  },
+  {
+   "fieldname": "delivery_of_original_undertaking",
+   "fieldtype": "Data",
+   "label": "Delivery of Original Undertaking"
+  },
+  {
+   "fieldname": "requested_local_undertaking_terms_and_conditions",
+   "fieldtype": "Data",
+   "label": "Requested Local Undertaking Terms and Conditions"
+  },
+  {
+   "fieldname": "standard_wording_requested_language",
+   "fieldtype": "Data",
+   "label": "Standard Wording Requested Language"
+  },
+  {
+   "fieldname": "column_break_cpyt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "governing_law_andor_place_of_jurisdiction",
+   "fieldtype": "Select",
+   "label": "Governing Law and/or Place of Jurisdiction"
+  },
+  {
+   "fieldname": "undertaking_terms_and_conditions",
+   "fieldtype": "Data",
+   "label": "Undertaking Terms and Conditions"
+  },
+  {
+   "fieldname": "automatic_extensionnon_extension_notification",
+   "fieldtype": "Data",
+   "label": "Automatic Extension/Non Extension Notification"
+  },
+  {
+   "fieldname": "automatic_extension_final_expiry_date",
+   "fieldtype": "Date",
+   "label": "Automatic Extension Final Expiry Date"
+  },
+  {
+   "fieldname": "transfer_indicator",
+   "fieldtype": "Data",
+   "label": "Transfer Indicator"
+  },
+  {
+   "fieldname": "underlying_transaction_details",
+   "fieldtype": "Data",
+   "label": "Underlying Transaction Details"
+  },
+  {
+   "fieldname": "delivery_to__collection_by",
+   "fieldtype": "Select",
+   "label": "Delivery to / Collection By"
+  },
+  {
+   "fieldname": "generate_swift_message__gtee_text",
+   "fieldtype": "Select",
+   "label": "Generate SWIFT Message / G'tee Text"
+  },
+  {
+   "fieldname": "type_of_undertaking",
+   "fieldtype": "Select",
+   "label": "Type of undertaking"
+  },
+  {
+   "depends_on": "frm.doc.type_of_bg == \"Shipping G'tee\"",
+   "fieldname": "shipping_guarantee_section",
+   "fieldtype": "Section Break",
+   "label": "Shipping Guarantee"
+  },
+  {
+   "fieldname": "data_dviz",
+   "fieldtype": "Data",
+   "label": "LC Number"
+  },
+  {
+   "fieldname": "fx_rate",
+   "fieldtype": "Data",
+   "label": "FX rate"
+  },
+  {
+   "fieldname": "bill_of_lading_no",
+   "fieldtype": "Data",
+   "label": "Bill of Lading No."
+  },
+  {
+   "fieldname": "carrier_id",
+   "fieldtype": "Data",
+   "label": "Carrier ID"
+  },
+  {
+   "fieldname": "column_break_jiyd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lc_amount_fcy",
+   "fieldtype": "Data",
+   "label": "LC Amount (FCY)"
+  },
+  {
+   "fieldname": "lcy_amount",
+   "fieldtype": "Data",
+   "label": "LCY Amount"
+  },
+  {
+   "fieldname": "carrier_name_and_address",
+   "fieldtype": "Data",
+   "label": "Carrier Name and Address"
+  },
+  {
+   "depends_on": "frm.doc.type_of_bg == \"Deferred Payment G'tee\"",
+   "fieldname": "deferred_payment_guarantee_section",
+   "fieldtype": "Section Break",
+   "label": "Deferred Payment Guarantee"
+  },
+  {
+   "fieldname": "installment_payment_details",
+   "fieldtype": "Select",
+   "label": "Installment Payment details",
+   "options": "\nMonthly\nQuarterly\nAnnually"
+  },
+  {
+   "fieldname": "column_break_obaz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_installment_due",
+   "fieldtype": "Date",
+   "label": "Date of Installment due"
+  },
+  {
+   "fieldname": "facility_tab",
+   "fieldtype": "Tab Break",
+   "label": "Facility"
+  },
+  {
+   "fieldname": "data_vcim",
+   "fieldtype": "Data",
+   "label": "Limit Prefix"
+  },
+  {
+   "fieldname": "limit_node_to_be_used",
+   "fieldtype": "Data",
+   "label": "Limit Node To Be Used"
+  },
+  {
+   "fieldname": "column_break_snha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "limit_suffix",
+   "fieldtype": "Data",
+   "label": "Limit Suffix"
+  },
+  {
+   "fieldname": "html_webb",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:20px;\"></div>"
+  },
+  {
+   "fieldname": "fetch_limit",
+   "fieldtype": "Button",
+   "label": "Fetch Limit"
+  },
+  {
+   "fieldname": "section_break_hjru",
+   "fieldtype": "Section Break",
+   "label": "Facility Details"
+  },
+  {
+   "fieldname": "table_gbax",
+   "fieldtype": "Table",
+   "label": "Facility Details",
+   "options": "Facility Sheet"
+  },
+  {
+   "fieldname": "comissions_tab",
+   "fieldtype": "Tab Break",
+   "label": "Comissions"
+  },
+  {
+   "fieldname": "commissions_section",
+   "fieldtype": "Section Break",
+   "label": "Commissions"
+  },
+  {
+   "fieldname": "charge_code",
+   "fieldtype": "Select",
+   "label": "Charge Code"
+  },
+  {
+   "fieldname": "data_ycdz",
+   "fieldtype": "Data",
+   "label": "Pricing Currency"
+  },
+  {
+   "fieldname": "min_charge_amount",
+   "fieldtype": "Data",
+   "label": "Min Charge Amount"
+  },
+  {
+   "fieldname": "date_xzfy",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "party_to_charge",
+   "fieldtype": "Select",
+   "label": "Party to Charge"
+  },
+  {
+   "fieldname": "charge_amount",
+   "fieldtype": "Data",
+   "label": "Charge Amount"
+  },
+  {
+   "fieldname": "amortize",
+   "fieldtype": "Select",
+   "label": "Amortize"
+  },
+  {
+   "fieldname": "column_break_tzug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_flat",
+   "fieldtype": "Select",
+   "label": "Type (%/Flat)"
+  },
+  {
+   "fieldname": "charge_in_home_currency",
+   "fieldtype": "Data",
+   "label": "Charge in Home Currency"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "days__month__quarter",
+   "fieldtype": "Data",
+   "label": "Days / Month / Quarter"
+  },
+  {
+   "fieldname": "account_details",
+   "fieldtype": "Data",
+   "label": "Account Details"
+  },
+  {
+   "fieldname": "amortization_of_charges",
+   "fieldtype": "Select",
+   "label": "Amortization of charges"
+  },
+  {
+   "fieldname": "minimum_amount_for_amortization",
+   "fieldtype": "Data",
+   "label": "Minimum Amount for Amortization"
+  },
+  {
+   "fieldname": "margin_details_section",
+   "fieldtype": "Section Break",
+   "label": "Margin Details"
+  },
+  {
+   "fieldname": "margin_details",
+   "fieldtype": "Select",
+   "label": "Margin Details "
+  },
+  {
+   "fieldname": "margin_currency",
+   "fieldtype": "Data",
+   "label": "Margin Currency"
+  },
+  {
+   "fieldname": "margin_refund",
+   "fieldtype": "Select",
+   "label": "Margin Refund"
+  },
+  {
+   "fieldname": "debit_amount",
+   "fieldtype": "Data",
+   "label": "Debit Amount"
+  },
+  {
+   "fieldname": "spot_contract_signed",
+   "fieldtype": "Data",
+   "label": "Spot Contract signed"
+  },
+  {
+   "fieldname": "allow_margin_modification",
+   "fieldtype": "Select",
+   "label": "Allow Margin Modification"
+  },
+  {
+   "fieldname": "remarks_if_waiver_allowed",
+   "fieldtype": "Small Text",
+   "label": "Remarks if waiver allowed"
+  },
+  {
+   "fieldname": "column_break_fjmm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "select_tyzv",
+   "fieldtype": "Select",
+   "label": "Type (%/Flat)"
+  },
+  {
+   "fieldname": "data_ebod",
+   "fieldtype": "Data",
+   "label": "Margin Amount"
+  },
+  {
+   "fieldname": "select_ljee",
+   "fieldtype": "Select",
+   "label": "Party to Debit / Credit / Lien"
+  },
+  {
+   "fieldname": "spot_rate_incase_of_currency_other_than_home_currency",
+   "fieldtype": "Data",
+   "label": "Spot rate incase of currency other than home Currency"
+  },
+  {
+   "fieldname": "allow_waive",
+   "fieldtype": "Select",
+   "label": "Allow Waive"
+  },
+  {
+   "fieldname": "collection_mode",
+   "fieldtype": "Select",
+   "label": "Collection Mode"
+  },
+  {
+   "fieldname": "statutory_margin_section",
+   "fieldtype": "Section Break",
+   "label": "Statutory Margin "
+  },
+  {
+   "fieldname": "statutory_details",
+   "fieldtype": "Select",
+   "label": "Statutory Details"
+  },
+  {
+   "fieldname": "margin_amount",
+   "fieldtype": "Data",
+   "label": "Margin Amount"
+  },
+  {
+   "fieldname": "statutorymarginrefu",
+   "fieldtype": "Select",
+   "label": "Margin Refund"
+  },
+  {
+   "fieldname": "column_break_bhmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "situatorytype",
+   "fieldtype": "Select",
+   "label": "Type( %/Flat)"
+  },
+  {
+   "fieldname": "margin_debitcredit_account",
+   "fieldtype": "Data",
+   "label": "Margin Debit/Credit Account"
+  },
+  {
+   "fieldname": "tab_7_tab",
+   "fieldtype": "Tab Break",
+   "label": "Document Value Details"
+  },
+  {
+   "fieldname": "currency_type",
+   "fieldtype": "Select",
+   "label": "Currency Type"
+  },
+  {
+   "fieldname": "requested_value_in_words",
+   "fieldtype": "Data",
+   "label": "Requested Value (in words)"
+  },
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Data",
+   "label": "Exchange Rate"
+  },
+  {
+   "fieldname": "column_break_ngil",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "value_of_documentrequest_amountproposed",
+   "fieldtype": "Data",
+   "label": "Value of Document/Request Amount(Proposed)"
+  },
+  {
+   "fieldname": "rate_code",
+   "fieldtype": "Select",
+   "label": "Rate Code",
+   "options": "\nBuy\nSell\nMid"
+  },
+  {
+   "fieldname": "documentlcyamount",
+   "fieldtype": "Data",
+   "label": "LCY Amount"
+  },
+  {
+   "fieldname": "tab_8_tab",
+   "fieldtype": "Tab Break",
+   "label": "Deferral"
+  },
+  {
+   "fieldname": "deferral_section",
+   "fieldtype": "Section Break",
+   "label": "Deferral"
+  },
+  {
+   "fieldname": "table_xidv",
+   "fieldtype": "Table",
+   "options": "Deferral Table"
+  },
+  {
+   "fieldname": "section_break_shwy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarls",
+   "fieldtype": "Small Text",
+   "label": "Remarls"
+  },
+  {
+   "fieldname": "deferral_received_by_rm",
+   "fieldtype": "Select",
+   "label": "Deferral received by RM?"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg === \"BG against Counter G'tee\"",
+   "fieldname": "isuanceof_bg_agains_counter",
+   "fieldtype": "Section Break",
+   "label": "Issuance of BG against Counter Guarantee"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "obligor__instructing_party_section",
+   "fieldtype": "Section Break",
+   "label": "Obligor / Instructing Party"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "section_break_nytr",
+   "fieldtype": "Section Break",
+   "label": "Drawee"
+  },
+  {
+   "fieldname": "column_break_vukc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "eimbursing_bank_section",
+   "fieldtype": "Section Break",
+   "label": "Reimbursing Bank"
+  },
+  {
+   "fieldname": "column_break_khdi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "requested_confirmation_party_section",
+   "fieldtype": "Section Break",
+   "label": "Requested Confirmation Party"
+  },
+  {
+   "fieldname": "column_break_pcbl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "confirming_bank_section",
+   "fieldtype": "Section Break",
+   "label": "Confirming Bank"
+  },
+  {
+   "fieldname": "column_break_zamu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "bg_issuing_bank_section",
+   "fieldtype": "Section Break",
+   "label": "BG Issuing Bank"
+  },
+  {
+   "fieldname": "column_break_ptgo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "available_with_section",
+   "fieldtype": "Section Break",
+   "label": "Available With"
+  },
+  {
+   "fieldname": "column_break_ufge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.clasification_of_bg == \"Counter Guarantee (International Gtee)\"",
+   "fieldname": "advise_through_bank_section",
+   "fieldtype": "Section Break",
+   "label": "Advise Through Bank"
+  },
+  {
+   "fieldname": "column_break_drjb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ntrt",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-24 15:00:20.215146",
+ "modified_by": "Administrator",
+ "module": "Credit Card",
+ "name": "Bank Guarantee",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

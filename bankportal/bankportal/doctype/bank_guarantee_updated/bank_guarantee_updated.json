@@ -1,0 +1,421 @@
+{
+ "actions": [],
+ "autoname": "format:BG-{####}",
+ "creation": "2025-01-09 14:16:44.282174",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yir5",
+  "html_ysta",
+  "column_break_rwgi",
+  "amended_from",
+  "section_break_iifi",
+  "file",
+  "section_break_sasx",
+  "file_upload_to_ai",
+  "image_upload_to_ai",
+  "column_break_yzuw",
+  "column_break_zmkf",
+  "html_opcj",
+  "submit_to_ai",
+  "lead_information_section",
+  "custom_classification_of_bg",
+  "custom_for_of_undertaking",
+  "column_break_zyuo",
+  "custom_type_of_bg",
+  "custom_bg_category",
+  "custom_vechicle_details",
+  "section_break_pxeu",
+  "custom_cif_id",
+  "column_break_xmsd",
+  "custom_applicant_name",
+  "section_break_ficv",
+  "custom_applicant_type",
+  "jv_details_table_section",
+  "jv_details_table",
+  "section_break_evhg",
+  "pan_holder_name",
+  "pan_registration_office",
+  "pan_registration_type",
+  "column_break_yyxv",
+  "pan_number",
+  "pan_registration_date",
+  "status",
+  "section_break_dupq",
+  "custom_numberof_beneficiary",
+  "column_break_sfuq",
+  "custom_beneficiary_type",
+  "section_break_lfbu",
+  "beneficiary_table_data",
+  "section_break_cydq",
+  "purpose_of_guarantee",
+  "custom_valid_until",
+  "column_break_ozyg",
+  "custom_contract_date",
+  "custom_contract_number",
+  "section_break_ilgn",
+  "custom_undertaking_currency_code",
+  "custom_claim_expiry_date",
+  "column_break_ewqi",
+  "custom_undertaking_amount_figures",
+  "custom_bg_expiry_place",
+  "section_break_jolc",
+  "custom_lc_number",
+  "custom_carrier_id",
+  "column_break_ctjh",
+  "custom_lc_amount",
+  "carrier_name_and_address",
+  "section_break_pxxg",
+  "goods_descrition_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yir5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bank Guarantee Updated",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "html_ysta",
+   "fieldtype": "HTML",
+   "options": "<h2>BG FORM DECENTRALIZE</h2>"
+  },
+  {
+   "fieldname": "column_break_rwgi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lead_information_section",
+   "fieldtype": "Section Break",
+   "label": "Lead Information"
+  },
+  {
+   "fieldname": "custom_for_of_undertaking",
+   "fieldtype": "Select",
+   "label": "Form of Undertaking",
+   "options": "\nDGAR (Demand Guarantee)\nSTBY (Standby LC)"
+  },
+  {
+   "fieldname": "column_break_zyuo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_type_of_bg",
+   "fieldtype": "Select",
+   "label": "Type of BG",
+   "options": "\nTender G'tee (Bid Bond)\nPerformance G'tee\nFinancial G'tee\nAdvance Payment G'tee\nRetention & Warranty Bond\nDeferred Payment G'tee\nPayment G'tee\nShipping G'tee"
+  },
+  {
+   "fieldname": "custom_bg_category",
+   "fieldtype": "Select",
+   "label": "BG Category",
+   "options": "\nSuppliers Credit\nCustoms\nCourt\nVehicle Permit\nGovernment\nIndustry\nTrading"
+  },
+  {
+   "depends_on": "eval:doc.custom_bg_category ===\"Vehicle Permit\" ",
+   "fieldname": "custom_vechicle_details",
+   "fieldtype": "Data",
+   "label": "Vechicles Details"
+  },
+  {
+   "fieldname": "section_break_pxeu",
+   "fieldtype": "Section Break",
+   "label": "Applicant Details and JV Details"
+  },
+  {
+   "fieldname": "custom_cif_id",
+   "fieldtype": "Data",
+   "label": "CIF ID"
+  },
+  {
+   "fieldname": "column_break_xmsd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_applicant_name",
+   "fieldtype": "Data",
+   "label": "Applicant Name"
+  },
+  {
+   "fieldname": "section_break_ficv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "jv_details_table_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.custom_applicant_type == \"JV\"",
+   "fieldname": "jv_details_table",
+   "fieldtype": "Table",
+   "label": "JV Details Table",
+   "options": "JV Details"
+  },
+  {
+   "fieldname": "section_break_dupq",
+   "fieldtype": "Section Break",
+   "label": "Beneficiary Details"
+  },
+  {
+   "fieldname": "custom_numberof_beneficiary",
+   "fieldtype": "Int",
+   "label": "No. of Beneficiary"
+  },
+  {
+   "fieldname": "custom_beneficiary_type",
+   "fieldtype": "Select",
+   "label": "Beneficiary Type",
+   "options": "\nSuppliers Credit\nCustoms\nCourt"
+  },
+  {
+   "fieldname": "column_break_sfuq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lfbu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beneficiary_table_data",
+   "fieldtype": "Table",
+   "label": "Beneficiary Details Table",
+   "options": "BG Beneficiary Details"
+  },
+  {
+   "fieldname": "section_break_cydq",
+   "fieldtype": "Section Break",
+   "label": "Purpose of Guarantee"
+  },
+  {
+   "fieldname": "purpose_of_guarantee",
+   "fieldtype": "Data",
+   "label": "Purpose of Guarantee"
+  },
+  {
+   "fieldname": "column_break_ozyg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_contract_date",
+   "fieldtype": "Date",
+   "label": "Contract Date"
+  },
+  {
+   "fieldname": "custom_valid_until",
+   "fieldtype": "Date",
+   "label": "Valid Until"
+  },
+  {
+   "fieldname": "custom_contract_number",
+   "fieldtype": "Data",
+   "label": "Contract Number"
+  },
+  {
+   "fieldname": "section_break_ilgn",
+   "fieldtype": "Section Break",
+   "label": "BG Details"
+  },
+  {
+   "fieldname": "custom_claim_expiry_date",
+   "fieldtype": "Date",
+   "label": "Claim Expiry Date"
+  },
+  {
+   "fieldname": "column_break_ewqi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_undertaking_amount_figures",
+   "fieldtype": "Data",
+   "label": "Under Taking Amount Figures"
+  },
+  {
+   "fieldname": "custom_bg_expiry_place",
+   "fieldtype": "Data",
+   "label": "BG Expiry Place"
+  },
+  {
+   "fieldname": "custom_undertaking_currency_code",
+   "fieldtype": "Select",
+   "label": "Under Taking Amount Currency Code",
+   "options": "\nUSD\nNPR\nEUR\nGBP\nINR\nJPY\nAUD\nCAD"
+  },
+  {
+   "depends_on": "eval:doc.custom_type_of_bg ==\"Shipping G'tee\"",
+   "fieldname": "section_break_jolc",
+   "fieldtype": "Section Break",
+   "label": "Shipping Guarantee"
+  },
+  {
+   "fieldname": "custom_lc_number",
+   "fieldtype": "Data",
+   "label": "LC Number "
+  },
+  {
+   "fieldname": "custom_carrier_id",
+   "fieldtype": "Data",
+   "label": "Carrier ID"
+  },
+  {
+   "fieldname": "column_break_ctjh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_lc_amount",
+   "fieldtype": "Data",
+   "label": "LC Amount"
+  },
+  {
+   "fieldname": "carrier_name_and_address",
+   "fieldtype": "Data",
+   "label": "Carrier Name and Address"
+  },
+  {
+   "fieldname": "section_break_pxxg",
+   "fieldtype": "Section Break",
+   "label": "Description of Goods and Services Table"
+  },
+  {
+   "fieldname": "goods_descrition_details",
+   "fieldtype": "Table",
+   "options": "BG Description of Goods And Services"
+  },
+  {
+   "fieldname": "custom_classification_of_bg",
+   "fieldtype": "Select",
+   "label": "Clasification of BG",
+   "options": "\nLocal\nCounter Guarantee (International Gtee)\nBG against Counter G'tee\nLine of Credit/Commitment Liability\nOthers"
+  },
+  {
+   "fieldname": "section_break_evhg",
+   "fieldtype": "Section Break",
+   "label": "Pan Details"
+  },
+  {
+   "fieldname": "custom_applicant_type",
+   "fieldtype": "Select",
+   "label": "Applicant Type",
+   "options": "\nSingle\nJV"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "label": "Pan Number"
+  },
+  {
+   "fieldname": "pan_holder_name",
+   "fieldtype": "Data",
+   "label": "Pan Holder Name"
+  },
+  {
+   "fieldname": "pan_registration_office",
+   "fieldtype": "Data",
+   "label": "Pan Registration Office"
+  },
+  {
+   "fieldname": "column_break_yyxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pan_registration_date",
+   "fieldtype": "Data",
+   "label": "Pan Registration Date"
+  },
+  {
+   "fieldname": "pan_registration_type",
+   "fieldtype": "Data",
+   "label": "Pan Registration Type"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "depends_on": "eval: (doc.file == 'Select pdf to Upload' || doc.file == 'Select Image to Upload')\n",
+   "fieldname": "section_break_sasx",
+   "fieldtype": "Section Break",
+   "label": "AI File Processing Section"
+  },
+  {
+   "depends_on": "eval:doc.file ==='Select pdf to Upload'",
+   "fieldname": "file_upload_to_ai",
+   "fieldtype": "Attach",
+   "label": "FIle Upload To AI",
+   "max_height": "200px",
+   "search_index": 1,
+   "width": "400px"
+  },
+  {
+   "depends_on": "eval:doc.file ==='Select Image to Upload'",
+   "fieldname": "image_upload_to_ai",
+   "fieldtype": "Attach Image",
+   "label": "Image Upload To AI"
+  },
+  {
+   "fieldname": "column_break_yzuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_opcj",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:27.5px;\"></div>"
+  },
+  {
+   "fieldname": "column_break_zmkf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_iifi",
+   "fieldtype": "Section Break",
+   "label": "File Selection for AI"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Select",
+   "label": "You need to Select the type of File to Upload to AI",
+   "options": "\nSelect pdf to Upload\nSelect Image to Upload"
+  },
+  {
+   "depends_on": "eval: (doc.file == 'Select pdf to Upload' || doc.file == 'Select Image to Upload')\n",
+   "fieldname": "submit_to_ai",
+   "fieldtype": "Button",
+   "label": "Upload To AI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-23 16:33:47.386354",
+ "modified_by": "Administrator",
+ "module": "Credit Card",
+ "name": "Bank Guarantee Updated",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

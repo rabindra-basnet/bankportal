@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-21 15:58:37.372030",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_dvrd",
+  "section_break_muix",
+  "beneficiary_name",
+  "form_settings_connections_no_label",
+  "country",
+  "beneficiary_contact_person",
+  "column_break_xscd",
+  "address_line_1",
+  "address_line_3",
+  "contact_number",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_dvrd",
+   "fieldtype": "HTML",
+   "options": "<h2>Beneficiary Details</h2>"
+  },
+  {
+   "fieldname": "section_break_muix",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beneficiary_name",
+   "fieldtype": "Data",
+   "label": "Beneficiary Name"
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
+  },
+  {
+   "fieldname": "form_settings_connections_no_label",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "column_break_xscd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line_3",
+   "fieldtype": "Data",
+   "label": "Address Line 3"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact number"
+  },
+  {
+   "fieldname": "beneficiary_contact_person",
+   "fieldtype": "Data",
+   "label": "Beneficiary Contact Person"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-23 16:35:16.770886",
+ "modified_by": "Administrator",
+ "module": "Credit Card",
+ "name": "BG Beneficiary Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

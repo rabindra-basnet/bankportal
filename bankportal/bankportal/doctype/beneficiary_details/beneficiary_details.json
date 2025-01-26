@@ -1,0 +1,243 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-15 11:53:40.166472",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_relation",
+  "gender",
+  "middle_name",
+  "full_name",
+  "mothers_name",
+  "spouse_name",
+  "column_break_wwvw",
+  "customer_cif_id",
+  "saluation",
+  "first_name",
+  "last_name",
+  "father_name",
+  "grandfathers_name",
+  "nationality",
+  "address_section",
+  "select_erpq",
+  "foreign_citydistrict",
+  "vdcmunicipality",
+  "province",
+  "ward_number",
+  "phone_number",
+  "mobile_number",
+  "column_break_vsfj",
+  "foreign_vdcmunicipality",
+  "foreign_state",
+  "district",
+  "house_number",
+  "streettole",
+  "mobile_code",
+  "email",
+  "customer_decleration_section",
+  "anticipated_no_of_transaction_per_year",
+  "have_you_been_punished_for_any_crime",
+  "name_of_country",
+  "column_break_msry",
+  "high_level_officialpep",
+  "are_you_associated_with_foreign_country"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_relation",
+   "fieldtype": "Select",
+   "label": "Customer Relation"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "column_break_wwvw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_cif_id",
+   "fieldtype": "Data",
+   "label": "Customer CIF ID"
+  },
+  {
+   "fieldname": "saluation",
+   "fieldtype": "Select",
+   "label": "Saluation"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "grandfathers_name",
+   "fieldtype": "Data",
+   "label": "GrandFather's Name"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "spouse_name",
+   "fieldtype": "Data",
+   "label": "Spouse Name"
+  },
+  {
+   "fieldname": "address_section",
+   "fieldtype": "Section Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "select_erpq",
+   "fieldtype": "Select",
+   "label": "Country"
+  },
+  {
+   "fieldname": "foreign_citydistrict",
+   "fieldtype": "Select",
+   "label": "Foreign City/District"
+  },
+  {
+   "fieldname": "vdcmunicipality",
+   "fieldtype": "Data",
+   "label": "VDC/Municipality"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Data",
+   "label": "Province"
+  },
+  {
+   "fieldname": "ward_number",
+   "fieldtype": "Data",
+   "label": "Ward Number"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "column_break_vsfj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_vdcmunicipality",
+   "fieldtype": "Data",
+   "label": "Foreign VDC/municipality"
+  },
+  {
+   "fieldname": "foreign_state",
+   "fieldtype": "Select",
+   "label": "Foreign State"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "house_number",
+   "fieldtype": "Data",
+   "label": "House Number"
+  },
+  {
+   "fieldname": "streettole",
+   "fieldtype": "Data",
+   "label": "Street/Tole"
+  },
+  {
+   "fieldname": "mobile_code",
+   "fieldtype": "Data",
+   "label": "Mobile Code"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "customer_decleration_section",
+   "fieldtype": "Section Break",
+   "label": "Customer decleration"
+  },
+  {
+   "fieldname": "anticipated_no_of_transaction_per_year",
+   "fieldtype": "Select",
+   "label": "Anticipated No. of transaction per year"
+  },
+  {
+   "fieldname": "high_level_officialpep",
+   "fieldtype": "Select",
+   "label": "High Level Official/PEP"
+  },
+  {
+   "fieldname": "have_you_been_punished_for_any_crime",
+   "fieldtype": "Select",
+   "label": "Have you been punished for any crime?"
+  },
+  {
+   "fieldname": "column_break_msry",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "are_you_associated_with_foreign_country",
+   "fieldtype": "Select",
+   "label": " Are you associated with foreign country?"
+  },
+  {
+   "fieldname": "name_of_country",
+   "fieldtype": "Data",
+   "label": "Name of country"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-15 12:03:22.556677",
+ "modified_by": "Administrator",
+ "module": "Credit Card",
+ "name": "Beneficiary Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
